@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEATHER WEB PAGE :v</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
 </head>
 <body>
     
-    <section class="container">
+    <header class="container">
         <section class="current-info">
 
-            <section class="date-container">
+            <div class="date-container">
                 <div class="time" id="time">
                     12:30 <span id="am-pm">PM</span>
                 </div>
@@ -24,27 +24,28 @@
                     
                     
                 </div>
-            </section>
+            </div>
 
-            <section class="place-container">
+            <div class="place-container">
                 <div class="time-zone" id="time-zone">America/Lima</div>
                 <div id="country" class="country">PE</div>
-            </section>
+            </div>
         </section>
 
-    </section>
+        
+    </header>
 
-    <section class="future-forecast">
-        <div class="today" id="current-temp">
+    <main class="future-forecast">
+        <section class="today" id="current-temp">
             <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="other">
                 <div class="day">Monday</div>
                 <div class="temp">Night - 25.6&#176; C</div>
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
-        </div>
+        </section>
 
-        <div class="weather-forecast" id="weather-forecast">
+        <section class="weather-forecast" id="weather-forecast">
             <div class="weather-forecast-item">
                 <div class="day">Tue</div>
                 <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
@@ -76,12 +77,11 @@
                 <div class="temp">Day - 35.6&#176; C</div>
             </div>
 
-        </div>
-    </section>
+        </section>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-    <script src="./JS/app.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

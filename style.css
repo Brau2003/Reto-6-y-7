@@ -7,7 +7,7 @@
 }
 
 body{
-    background:url('https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
+    background:url('https://andeanexplorerscusco.com/wp-content/uploads/2018/04/cusco2.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     overflow:hidden;
@@ -30,6 +30,7 @@ body{
 }
 .date-container .time{
     font-size: 70px;
+    font-weight: 400;
 }
 
 .date-container #am-pm{
@@ -47,7 +48,7 @@ body{
 
 .place-container .time-zone{
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .place-container .country{
